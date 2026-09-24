@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/downr.js": {
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/downr",
+      "dest": "/api/downr.js"
+    }
+  ]
+}
